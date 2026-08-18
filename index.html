@@ -1,12 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Example</title>
-  </head>
-  <body>
-    <b>Hello World</b>
-    <p>Hello World</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy & Support – Hold Calculator</title>
+  <meta name="description" content="Privacy Policy and Support for [Your App Name]">
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --accent: #0071e3;
+      --border: #d2d2d7;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .logo {
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: var(--text);
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    nav a:hover { color: var(--accent); }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+    section {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.35rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    h2:first-of-type { border-top: none; margin-top: 1.25rem; padding-top: 0; }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.5rem;
+    }
+    p, li { color: var(--text); margin-bottom: 0.85rem; }
+    ul, ol { padding-left: 1.4rem; margin-bottom: 1rem; }
+    li { margin-bottom: 0.4rem; }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+    a { color: var(--accent); }
+    .contact-box {
+      background: #f0f7ff;
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1rem;
+    }
+    .contact-box p { margin-bottom: 0.4rem; }
+    .contact-box strong { display: inline-block; min-width: 5.5rem; }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .placeholder {
+      background: #fff8e6;
+      border: 1px dashed #e6a800;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-family: ui-monospace, monospace;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      section { padding: 1.5rem; }
+      h1 { font-size: 1.45rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="#top" class="logo">[Your App Name]</a>
+      <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#support">Support</a>
+        <a href="#terms">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ========== PRIVACY POLICY ========== -->
+    <section id="privacy">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: August 18, 2026</p>
+
+      <p>
+        This Privacy Policy applies to the mobile application <strong class="placeholder">Hold Calculator</strong> (the “App”)
+        developed by <strong class="placeholder">Bill Stewart</strong> (“we”, “us”, or “our”).
+      </p>
+
+      <h2>1. Information We Collect</h2>
+      <p>
+        The App does not collect, store, transmit, or share any personal data or user information.
+      </p>
+      <p>
+        All calculations (heading, wind correction, and related navigation values) are performed
+        entirely on your device. No data leaves your device. The App does not require an internet
+        connection to function and does not use any analytics, advertising, or tracking services.
+      </p>
+
+      <h2>2. Third-Party Services</h2>
+      <p>
+        The App does not integrate any third-party SDKs, analytics tools, advertising networks,
+        or external services that collect data.
+      </p>
+
+      <h2>3. Permissions</h2>
+      <p>
+        The App does not request access to your location, contacts, camera, microphone, photos,
+        or any other device data.
+      </p>
+
+      <h2>4. Children’s Privacy</h2>
+      <p>
+        The App does not collect any personal information from anyone, including children under 13.
+      </p>
+
+      <h2>5. Changes to This Policy</h2>
+      <p>
+        If we ever change how the App handles data, we will update this Privacy Policy and the
+        “Last updated” date. Continued use of the App after any changes constitutes acceptance
+        of the updated policy.
+      </p>
+
+      <h2>6. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+      <div class="contact-box">
+        <p><strong>Email:</strong> <span class="placeholder">your-email@example.com</span></p>
+        <p><strong>Developer:</strong> <span class="placeholder">Bill Stewart</span></p>
+      </div>
+    </section>
+
+    <!-- ========== SUPPORT ========== -->
+    <section id="support">
+      <h1>Support</h1>
+      <p class="meta">We’re here to help with <strong class="placeholder">Hold Calculator</strong>.</p>
+
+      <h2>How to get help</h2>
+      <p>
+        For questions, bug reports, feature requests, or feedback, please contact us by email.
+        We aim to respond within 1–3 business days.
+      </p>
+
+      <div class="contact-box">
+        <p><strong>Support email:</strong> <a href="mailto:your-email@example.com"><span class="placeholder">your-email@example.com</span></a></p>
+        <p><strong>App:</strong> <span class="placeholder">Hold Calculator</span></p>
+      </div>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>Does the app collect any data?</h3>
+      <p>
+        No. All heading and wind calculations are performed entirely on your device.
+        Nothing is stored, transmitted, or shared.
+      </p>
+
+      <h3>Does the app need an internet connection?</h3>
+      <p>
+        No. The App works fully offline.
+      </p>
+
+      <h3>I found a bug or the calculation seems incorrect</h3>
+      <p>
+        Please email us with your device model, iOS version, the values you entered,
+        and the result you received. This helps us investigate quickly.
+      </p>
+
+      <h2>App Store</h2>
+      <p>
+        You can leave a review or request a refund through the App Store.
+        For billing questions related to App Store purchases, please contact Apple Support.
+      </p>
+    </section>
+
+    <!-- ========== TERMS ========== -->
+    <section id="terms">
+      <h1>Terms of Use</h1>
+      <p class="meta">Last updated: August 18, 2026</p>
+
+      <p>
+        By downloading or using <strong class="placeholder">Hold Calculator</strong>, you agree to these Terms of Use
+        and to Apple’s standard End User License Agreement (EULA), available at
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">apple.com/legal/internet-services/itunes/dev/stdeula/</a>.
+      </p>
+
+      <h2>License</h2>
+      <p>
+        We grant you a limited, non-exclusive, non-transferable, revocable license to use the App
+        for personal, non-commercial purposes in accordance with these Terms and the App Store terms.
+      </p>
+
+      <h2>Acceptable use</h2>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Use the App for any unlawful purpose</li>
+        <li>Attempt to reverse-engineer, decompile, or modify the App except as permitted by law</li>
+        <li>Interfere with or disrupt the App</li>
+      </ul>
+
+      <h2>Intellectual property</h2>
+      <p>
+        The App and its content are owned by <span class="placeholder">Bill Stewart</span>
+        or its licensors and are protected by copyright and other laws.
+      </p>
+
+      <h2>Disclaimer</h2>
+      <p>
+        The App is provided “as is” without warranties of any kind, express or implied.
+        Navigation calculations are tools to assist the user; you remain responsible for
+        verifying results and for safe navigation decisions. We do not guarantee that the
+        App will be uninterrupted or error-free.
+      </p>
+
+      <h2>Limitation of liability</h2>
+      <p>
+        To the maximum extent permitted by law, we shall not be liable for any indirect, incidental,
+        special, consequential, or punitive damages arising from your use of the App.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Questions about these Terms can be sent to the support email listed above.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 <span class="placeholder">Bill Stewart</span>. All rights reserved.</p>
+    <p style="margin-top:0.35rem"><a href="#privacy">Privacy</a> · <a href="#support">Support</a> · <a href="#terms">Terms</a></p>
+  </footer>
+
+</body>
 </html>
